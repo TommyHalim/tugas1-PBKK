@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="myMonster" 
+    	class="com.tommy.card.Monster">
+       	<property name="type" value="Blue-Eyes White Dragon"></property>
+    </bean>
+    <bean id="mySpell" 
+    	class="com.tommy.card.Spell">
+    	<property name="type" value="Monster Reborn"></property>
+    </bean>
+    <bean id="myTrap" 
+    	class="com.tommy.card.Trap">
+    	<property name="type" value="Solemn Warning"></property>
+    </bean>
+</beans>
